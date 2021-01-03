@@ -11,8 +11,8 @@
 	<groupId>de.microtema</groupId>
 	<artifactId>backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>backend</name>
-	<description>Process Flow Platform</description>
+	<name>process-flow-platform-backend</name>
+	<description>Process Flow Platform Backend Service</description>
 
 	<properties>
 		<java.version>1.8</java.version>
