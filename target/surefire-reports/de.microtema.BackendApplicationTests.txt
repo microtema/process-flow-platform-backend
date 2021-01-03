@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: de.microtema.BackendApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.276 s - in de.microtema.BackendApplicationTests
