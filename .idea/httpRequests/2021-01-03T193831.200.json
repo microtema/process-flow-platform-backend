@@ -1,0 +1,39 @@
+{
+  "content": [
+    {
+      "id": "ec6bc74f-aea4-4283-afc0-6743c11dff2b",
+      "key": "key",
+      "name": "name",
+      "displayName": "display name",
+      "version": 1,
+      "description": "description",
+      "diagram": "diagram",
+      "deployTime": "2021-01-03T18:15:33.939"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "unsorted": false,
+      "sorted": true,
+      "empty": false
+    },
+    "pageNumber": 0,
+    "pageSize": 10,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalPages": 1,
+  "last": true,
+  "totalElements": 1,
+  "numberOfElements": 1,
+  "first": true,
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "unsorted": false,
+    "sorted": true,
+    "empty": false
+  },
+  "empty": false
+}

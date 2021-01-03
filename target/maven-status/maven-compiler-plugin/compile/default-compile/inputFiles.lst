@@ -1,0 +1,14 @@
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/common/repository/BaseEntity.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/definition/vo/PageRequestDTO.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/definition/rest/ProcessDefinitionController.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/BackendApplication.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/definition/vo/ProcessDefinitionSpecification.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/common/repository/BaseEntityRepository.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/definition/converter/ProcessDefinitionSpecificationToSpecificationConverter.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/definition/repository/ProcessDefinitionRepository.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/definition/service/ProcessDefinitionService.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/definition/vo/ProcessDefinition.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/definition/repository/ProcessDefinitionEntity.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/definition/converter/ProcessDefinitionEntityToProcessDefinitionConverter.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/common/converter/PageRequestDTOToPageRequestConverter.java
+/Users/mtema/Documents/DEVELOPER/PROJECTS/process-flow/process-flow-platform/backend/src/main/java/de/microtema/definition/facade/ProcessDefinitionFacade.java

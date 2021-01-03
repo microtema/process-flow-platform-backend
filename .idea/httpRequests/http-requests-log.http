@@ -1,0 +1,55 @@
+GET http://localhost:30080/api/rest/definition?page=0&size=10&query=&properties=!definitionName
+
+<> 2021-01-03T193831.200.json
+
+###
+
+GET http://localhost:30080/api/rest/definition?page=0&size=10&query=foo&properties=!definitionName
+
+<> 2021-01-03T193813.200.json
+
+###
+
+GET http://localhost:30080/rest/definition?page=0&size=10&query=foo&properties=!definitionName
+
+<> 2021-01-03T174959.200.json
+
+###
+
+GET http://localhost:30080/rest/definition
+GET http:
+
+<> 2021-01-03T174944.400.html
+
+###
+
+GET http://localhost:30080/rest/definition
+
+<> 2021-01-03T154819.500.json
+
+###
+
+GET http://localhost:30080/rest/definition
+
+<> 2021-01-03T151302.200.json
+
+###
+
+GET http://localhost:30080/rest/definition
+
+<> 2021-01-03T151244.404.json
+
+###
+
+GET http://localhost:30080/rest/definition
+
+<> 2021-01-03T151130.404.json
+
+###
+
+GET http://localhost:30080/rest/definition
+
+<> 2021-01-03T150531.404.json
+
+###
+
