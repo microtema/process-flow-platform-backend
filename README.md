@@ -1,6 +1,6 @@
 ## Process-Flow Platform Backend
 
-# create docker file
+# create docker image
 `docker build -t microtema/process-flow-platform-backend:1.0.0 .`
 
 # run docker file
