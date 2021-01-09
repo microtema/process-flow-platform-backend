@@ -1,5 +1,5 @@
 server:
-  port: 30080
+  port: 30081
   servlet:
     context-path: /api
 spring:
@@ -8,3 +8,13 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: postgres
     password: postgres
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+okta:
+  oauth2:
+    issuer: https://dev-1065782.okta.com/oauth2/default
+    clientId: 0oa3h0mq2kwRxe9hO5d6
