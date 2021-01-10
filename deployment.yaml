@@ -20,6 +20,17 @@ spec:
           image: microtema/process-flow-platform-backend:1.0.3
           ports:
             - containerPort: 8080
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:postgresql://postgres-service/processflow
+            - name: SPRING_DATASOURCE_USERNAME
+              value: postgres
+            - name: SPRING_DATASOURCE_USERNAME
+              value: postgres
+            - name: OKTA_OAUTH2_ISSUER
+              value: https://dev-1065782.okta.com/oauth2/default
+            - name: OKTA_OAUTH2_CLIENTID
+              value: 0oa3h0mq2kwRxe9hO5d6
 ---
 apiVersion: v1
 kind: Service
