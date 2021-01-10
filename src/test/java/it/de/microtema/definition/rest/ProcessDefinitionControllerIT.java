@@ -1,4 +1,3 @@
-/*
 package it.de.microtema.definition.rest;
 
 import de.microtema.BackendApplication;
@@ -14,10 +13,10 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import javax.inject.Inject;
-
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertSame;
 
 @ActiveProfiles("test")
 @ExtendWith(SpringExtension.class)
@@ -33,7 +32,7 @@ class ProcessDefinitionControllerIT {
     String url = "/rest/definition?page=0&size=10&query=foo&properties=!definitionName";
 
     @Test
-    void getgetProcessDefinitions(){
+    void processDefinitions() {
 
         ResponseEntity<Map> response = restTemplate.exchange(url, HttpMethod.GET, null, Map.class);
 
@@ -42,5 +41,3 @@ class ProcessDefinitionControllerIT {
         assertNotNull(response.getBody());
     }
 }
-
- */
