@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16da90fa-eee0-42fa-a506-5d880b1dfd35" name="Default Changelist" comment="DX-1000 implement otka">
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/microtema/definition/converter/ProcessDefinitionEntityToProcessDefinitionConverterTest.java" afterDir="false" />
+    <list default="true" id="16da90fa-eee0-42fa-a506-5d880b1dfd35" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/microtema/BackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/microtema/BackendApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/it/de/microtema/definition/rest/ProcessDefinitionControllerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/de/microtema/definition/rest/ProcessDefinitionControllerIT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -200,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProcessDefinitionEntityToProcessDefinitionConverterTest">
+  <component name="RunManager" selected="Spring Boot.BackendApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -254,9 +254,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProcessDefinitionControllerIT" />
         <item itemvalue="JUnit.ProcessDefinitionEntityToProcessDefinitionConverterTest" />
         <item itemvalue="HTTP Request.generated-requests#1" />
-        <item itemvalue="JUnit.ProcessDefinitionControllerIT" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609702461405</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DX-1000 implement junit5 tests">
+      <created>1610268653581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610268653581</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +326,8 @@
     <MESSAGE value="DX-1000 delete generated files" />
     <MESSAGE value="DX-1000 update pom.xml" />
     <MESSAGE value="DX-1000 implement otka" />
-    <option name="LAST_COMMIT_MESSAGE" value="DX-1000 implement otka" />
+    <MESSAGE value="DX-1000 implement junit5 tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="DX-1000 implement junit5 tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -351,6 +359,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/de/microtema/definition/converter/ProcessDefinitionSpecificationToSpecificationConverter.java</url>
           <line>73</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.2.RELEASE/spring-security-core-5.1.2.RELEASE.jar!/org/springframework/security/core/context/SecurityContextImpl.class</url>
+          <line>36</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

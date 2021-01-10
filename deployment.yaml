@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: platform-backend
-          image: microtema/process-flow-platform-backend:1.0.2
+          image: microtema/process-flow-platform-backend:1.0.3
           ports:
             - containerPort: 8080
 ---
